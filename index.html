@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MythicMesh</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="bg-black text-light ">
+
+    <nav class="navbar bg-transparent position-fixed top-0  w-100" style="backdrop-filter: blur(5px); z-index: 10;">
+        <div class="container-fluid navbg px-5 py-1" >
+          <div class="d-flex align-items-center navlogo">
+            <img style=" filter:drop-shadow(0px 0px 6px #ff004c); margin-right: 10px;" src="/assets/images/MythicMesh-logo (1).png" alt="">
+            <a class=" text-decoration-none text-light fw-bold " style="font-size: 1.5em;">MythicMesh</a>
+          </div>
+          <div class="socio-ico">
+            <div class="d-flex gap-2 logos">
+                <img  src="/assets/images/icons8-telegram-50.png" alt="">
+                <img src="/assets/images/icons8-twitter-50.png" alt="">
+                <img src="/assets/images/icons8-medium-30.png" alt="">
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container-fluid p-0 d-flex align-items-center position-relative  headercont" style="overflow:hidden; height: 91vh;">
+        
+            <video  playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" id="header" class="  w-100 position-absolute" style="z-index: -3; right:0;top:0; blur:1">
+                <source src="assets/videos/MythicMesh.com - Brave 2023-11-24 20-29-13.mp4" type="video/mp4">
+            </video>
+        <div class="container text-center z-3 d-flex  justify-content-center  align-items-center  flex-column   position-relative text-white" >
+            <h1 class="display-1 w-50 fw-bolder ">Instant
+
+              Blockchain
+              
+              Alerts</h1>
+              <figure class="text-center">
+                <blockquote class="blockquote">
+                  <p style="width: 55%;" class=" m-auto mt-3">Drive user adoption with timely, actionable blockchain notifications.</p>
+                </blockquote>
+                
+              </figure>
+        </div>
+    </div>
+
+    <div class="container text-center">
+      <div class="d-flex  flex-column align-items-center ">
+        <p class="headTag text-danger" style="background: #3d121a;">Problem Statement </p>
+        <h1>On-Chain Alerting is Complex</h1>
+        <p class="text-secondary  fs-5 w-50">The blockchain space is expanding at a breakneck pace, resulting in a complex landscape that can span multiple chains and involve cross-chain interactions. This poses a significant challenge for businesses and users seeking to make informed decisions.</p>
+        <div class="lined"></div>
+      </div>
+      <div class="d-flex flex-column align-items-center position-relative  overflow-hidden  ">
+        <p class="headTag  " style="background: #173726; color:rgb(107, 213, 107)">Solution </p>
+        <h1>Scenario Based Real-Time Alerting</h1>
+        <p class=" fs-5 w-50 fw-semibold  mt-4">Easily Subscribe to Event Scenarios</p>
+        <div id="layerBg" class="position-absolute overflow-hidden opacity-75  " style="z-index: -4; background:radial-gradient(11.999996% 25.999996% at 49.99999349098931% 50.999997%,#370000 0%,rgb(18 0 24) 54.483284%,rgba(0,0,0,1) 100%);">
+          <img class="w-50 " src="/assets/images/layerdback.webp" alt="">
+          
+          <img class="w-50" src="/assets/images/layerdback.webp" alt="">
+          
+          <img class="w-50" src="/assets/images/layerdback.webp" alt="">
+        </div>
+        <img class="mapimg" src="/images/map.png" alt="">
+        <p class="text-secondary  fs-5 w-50 mt-5" >Easily subscribe to smart contract events or blockchain accounts and receive notifications in real-time. Create customized alert scenarios that combine multiple cross-chain alerts, enabling you to automate the decision making process and stay ahead.</p>
+      </div>
+
+      <div  class="d-flex mt-5 pt-5  flex-column align-items-center overflow-hidden ">
+        <p class="headTag " style="background: #173726; color:rgb(107, 213, 107)">Scenario Based Real-Time Alerting </p>
+        <h1>Event Watcher Service</h1>
+        <div id="wincard" class="mt-4" style="background: radial-gradient(50.0000387406526% 100.00000595567178% at 49.99999957398405% 100.00000270206199%,#275d40 0%,rgba(42,21,51,1) 47.811463475227356%,rgba(0,0,0,1) 100%);">
+          <img id="cards" style="scale:1.1; z-index: -12; backdrop-filter:blur(10px)" class="w-50" src="/assets/images/end1.webp" alt="">
+          
+          <img id="cards" style="scale:1.13; margin-top: -2px;z-index: -11;backdrop-filter:blur(10px); " class="w-50" src="/assets/images/end2.webp" alt="">
+          
+          <img id="cards" style="scale:1.15; z-index: -10; backdrop-filter:blur(10px);" class="w-50" src="/assets/images/end3.webp" alt="">
+          
+          <img id="cards" style="scale:1.16;z-index: -9;backdrop-filter:blur(10px); " class="w-50" src="/assets/images/end4.webp" alt="">
+
+
+        </div>
+        <div id="mobcard" class="mt-4" style="background: radial-gradient(50.0000387406526% 100.00000595567178% at 49.99999957398405% 100.00000270206199%,#275d40 0%,rgba(42,21,51,1) 47.811463475227356%,rgba(0,0,0,1) 100%);">
+          <img class="w-50" src="/assets/images/mobcard.webp" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="mt-5">
+        <div class="row justify-content-center    ">
+          <div class="col-3 ">
+            <h4>Create customized alert scenarios with ease</h4>
+          </div>
+          <div class="col-5">
+            <p class=" fs-6  w-100 fw-semibold text-secondary  ">With a user interface designed for simplicity, users can combine multiple alerts and track complex on-chain patterns without needing to write any code. Whether you're a beginner or an experienced user, Event Watcher's intuitive interface makes it easy to create and manage your alert scenarios, so you can stay on top of important blockchain activity in real time.</p>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="d-flex  mt-5 text-center pt-5 flex-column align-items-center ">
+        <p class="headTag " style="background: #321a3d; color:#d26aff;">Simple Integration Process </p>
+        <h1>Use Preconfigured Alert Templates</h1>
+        <div class="overflow-hidden mt-5 " style="background: radial-gradient(50.00002980039999% 99.9999999961197% at 50.00000117056014% 99.99999765668235%,#2a1533 0%,rgba(26,8,11,1) 51.76400542259216%,rgba(0,0,0,1) 100%);">
+          <div id="winOverly"  class="row justify-content-center align-items-end  overflow-hidden mb-2">
+            <div class="col-5 overflow-hidden ">
+            <img class="w-100" id="flowin" src="/assets/images/mm2.png" alt="">
+            </div>
+            <div class="col-5 overflow-hidden d-flex  ">
+              <img class="w-100" id="flowout" src="/assets/images/mm1.png" alt="">
+            </div> 
+            
+          </div>
+
+          <div id="mobOverly">
+            <img src="/assets/images/trial 1.png" alt="">
+          </div>
+
+
+        </div>
+      </div>
+
+      
+      
+    </div>
+    <div class="container">
+      <div class="mt-5">
+        <div class="row justify-content-center    ">
+          <div class="col-3 ">
+            <h4>Integrate blockchain alerts seamlessly</h4>
+          </div>
+          <div class="col-5">
+            <p class=" fs-6  w-100 fw-semibold text-secondary  ">Use accessible templates to integrate blockchain alert in your products. Customize and adapt pre-built templates to fit your design preferences and keep your users informed in real time.</p>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="d-flex mt-5 pt-5 flex-column align-items-center text-center ">
+        <p class="headTag " style="background: #3d381e; color:#ffd600;">API/SDK </p>
+        <h1>MythicMesh API/SDK</h1>
+        <div  style="background: radial-gradient(49.99999999999986% 99.9999880790722% at 50.0000043517827% 100.00000558584455%,#332f19 0%,rgba(10,23,16,1) 52.40273475646973%,rgba(0,0,0,1) 100%);">
+
+          <div class="d-flex  mt-5  m-auto" > 
+            <div id="wincode" class=" justify-content-end m-auto " style="width: 80%;">
+              <div class="codebg">
+                <img  class="w-100 "  src="/assets/images/banner.png" alt="">
+                <div style="background: #ffffff1f; height: 45vh;" class="w-100 overflow-hidden ">
+                  <img id="code" src="/assets/images/code.webp" alt="">
+                </div>
+              </div>
+              <div class="z-3 d-flex align-items-end codeitimg"  >
+                <img id="codeit" class="w-75 mb-3" style="backdrop-filter: blur(15px);" src="/assets/images/codeint.webp" alt="">
+              </div>
+            
+            </div>
+            <div id="mobcode">
+              <img  class="w-100" src="/assets/images/codebody.png" alt="">
+            </div>
+          </div> 
+
+
+        </div>
+      </div>
+   
+    </div>
+
+    <div class="container">
+      <div class="mt-5">
+        <div class="row justify-content-center    ">
+          <div class="col-3 ">
+            <h4>Run real time alerts with minimal hassle</h4>
+          </div>
+          <div class="col-5">
+            <p class=" fs-6  w-100 fw-semibold text-secondary  ">With our flexible tools and documentation, you can quickly get up and running, and customize your alert scenarios to fit your needs. Our platform-agnostic SDK supports multiple programming languages and frameworks, so you can easily integrate with your existing codebase.</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid p-0 m-0 w-100  text-light">
+        <div class="w-100 d-flex justify-content-center align-items-center   flex-column  text-center " style="height: 100vh; background: radial-gradient(90.274601% 68.716978% at 50.999995% 102.999988%,#95609c 0%,hsl(343.25deg 100% 21.18%) 57.879808%,rgba(0,0,0,1) 100%);">
+          <img src="/assets/images/MythicMesh-logo (1).png" alt="" class="footerLogo" style=" filter:drop-shadow(0px -4px 10px #ff004c);" >
+            <h1 class="display-5 mb-4  fw-bold ">Get started now</h1>
+            <p class="fs-5 w-25 p-0 m-0 fw-semibold  ">Notify your users about everything that is going on blockchain in real time </p>
+
+            <div >
+              <div class="d-flex gap-2 logos mt-4">
+                <img  src="/assets/images/icons8-telegram-50.png" alt="">
+                <img src="/assets/images/icons8-twitter-50.png" alt="">
+                <img src="/assets/images/icons8-medium-30.png" alt="">
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script>
+
+let mm = gsap.matchMedia();
+mm.add("(min-width: 426px)", () => {
+
+
+
+let t2 = gsap.timeline({
+  scrollTrigger:{
+    trigger:'#layerBg',
+    start:"top 80%",
+    end:"bottom 10%",
+    scrub:true,
+  }
+})
+
+t2.to('#layerBg',{
+  
+  y:100,
+  
+  duration:5
+})
+
+const textElement= document.querySelectorAll('#cards')
+
+textElement.forEach((e)=>{
+  let t = gsap.timeline({
+  scrollTrigger:{
+    trigger:e,
+    start:"top 90%",
+    end:"bottom 60%",
+    scrub:1,
+    
+  }
+})
+
+t.from(e,{
+  opacity:1,
+  marginTop:50,
+  scale:1.3,
+  duration:2,
+})
+
+})
+
+
+let t3 = gsap.timeline({
+  scrollTrigger:{
+    trigger:'#flowin',
+    start:"top 90%",
+    end:"bottom 90%",
+    scrub:2,
+  }
+})
+
+t3.from('#flowout',{
+  y:-200,
+  
+  duration:2
+})
+
+
+let t4 = gsap.timeline({
+  scrollTrigger:{
+    trigger:'#flowin',
+    start:"top 90%",
+    end:"bottom 70%",
+    scrub:1,
+  }
+})
+
+t4.from('#flowin',{
+  y:200,
+  
+  duration:2
+})
+
+let t5 = gsap.timeline({
+  scrollTrigger:{
+    trigger:'#code',
+    start:"top 90%",
+    end:"bottom 50%",
+    scrub:1,
+  }
+})
+
+t5.to('#code',{
+  y:-100,
+  
+  duration:2
+})
+
+
+
+let t6 = gsap.timeline({
+  scrollTrigger:{
+    trigger:'#codeit',
+    start:"top 90%",
+    end:"bottom 50%",
+    scrub:true,
+  }
+})
+
+t6.to('#codeit',{
+  y:-30,
+  duration:1
+})
+
+})
+
+
+
+    </script> 
+    
+</body>
+</html>

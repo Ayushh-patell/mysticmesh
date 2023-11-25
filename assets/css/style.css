@@ -1,0 +1,183 @@
+.lined {
+    background-color: #ffffff3d;
+    height: 40px;
+    position: relative;
+    width: 1px;
+}
+
+.logos img{
+    background: rgba(255, 255, 255, 0.089);
+    backdrop-filter: blur(3px);
+    padding: 7px ;
+    width: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    transition: 0.3s ease-in-out;
+}
+
+.logos img:hover{
+    background: rgba(255, 255, 255, 0.304);
+
+}
+.navlogo a{
+    background-image: linear-gradient(to right, #fff7f7, #ff0f3c);
+    color: transparent !important;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.navlogo img{
+   width: 26px;
+}
+
+
+.headTag{
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+
+.mapimg{
+    width: 50%;
+}
+
+.codebg{
+    width: 55%;
+}
+
+.codeitimg{
+    margin-left: -200px;
+}
+#wincard{
+    display: block;
+}
+
+#mobcard{
+    display: none;
+}
+
+#winOverly{
+    display: flex;
+}
+#mobOverly{
+    display: none;
+}
+
+#mobOverly img{
+    width: 100%;
+}
+
+#wincode{
+    display: flex;
+}
+#mobcode{
+    display: none;
+}
+
+.footerLogo{
+    width: 12%;
+}
+
+@media only screen and (max-width: 1025px) {
+    .mapimg{
+        width: 75%;
+    }
+    #cards{
+        width: 70% !important;
+    }
+    #header{
+        top: 4em;
+        scale: 1.3;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .w-50{
+        width: 90% !important;
+    }
+    .w-25{
+        width: 50% !important;
+    }
+    .codebg{
+        width: 75%;
+    }
+    .codeitimg{
+        margin-left: -150px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .w-50{
+        width: 90% !important;
+    }
+    .mapimg{
+        width: 90%;
+    }
+    .fs-5{
+        font-size: 1rem !important;
+    }
+
+    .row{
+        flex-direction: row !important;
+
+    }
+    .col-3{
+        width: 95% !important;
+    }
+    .col-5{
+        width: 95% !important;
+    }
+    #wincard{
+        display: none;
+    }
+    
+    #mobcard{
+        display: block;
+    }
+    #winOverly{
+        display: none;
+    }
+    #mobOverly{
+        display: block;
+    }
+    #wincode{
+        display: none;
+    }
+    #mobcode{
+        display: block;
+    }
+    .w-25{
+        width: 80% !important;
+    }
+    .footerLogo{
+        width: 30%;
+    }
+    #header{
+        top: 10em !important; 
+        scale: 3;
+    }
+    .blockquote p{
+        width: 95% !important;
+    }
+    .display-1{
+        font-size: 3.4em !important;
+    }
+    .headercont{
+        height: 77vh !important;
+    }
+    
+     .navbg{
+        padding:0 15px !important;
+     }
+     .mt-5{
+        margin-top: 2rem !important ;
+     }
+}
+
+@media only screen and (max-width: 377px){
+    #header{
+        top: 10em ;
+        
+    }
+}
