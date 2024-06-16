@@ -152,7 +152,7 @@
     .footerLogo{
         width: 30%;
     }
-    #header{
+    #header, #header2 {
         top: 10em !important; 
         scale: 3;
     }
