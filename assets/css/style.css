@@ -79,16 +79,19 @@
     width: 12%;
 }
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1024px) {
     .mapimg{
         width: 75%;
     }
     #cards{
         width: 70% !important;
     }
-    #header, #header2{
+    #header{
         top: 4em;
         scale: 1.3;
+    }
+    #header2 {
+scale: 3;
     }
 }
 
@@ -157,10 +160,7 @@
         top: 10em !important; 
         scale: 3;
     }
-    #header2{ 
-        scale: 3;
-    }
-    .blockquote p{
+  .blockquote p{
         width: 95% !important;
     }
     .display-1{
